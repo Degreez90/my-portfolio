@@ -1,12 +1,12 @@
-import * as React from "react"
-import Nav from "../components/Nav"
-import Hero from "../components/Hero"
+import * as React from 'react';
+import Hero from '../components/Hero';
+import Section from '../components/Section';
 
 export default function Home() {
   return (
-  <>
-    <Hero />
-  </>
-
-  )
+    <>
+      <Hero />
+      <Section />
+    </>
+  );
 }
