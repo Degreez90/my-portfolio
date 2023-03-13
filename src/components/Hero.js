@@ -1,6 +1,7 @@
 import React from 'react';
 import Card from './Card';
 import Nav from './Nav';
+import Form from './Form';
 
 const Hero = () => {
   return (
@@ -17,23 +18,27 @@ const Hero = () => {
             </h1>
             <div className='mt-2'>For all your web Development needs</div>
           </div>
-          <div className='md:showcase-form showcase-form-shrink'>
-            <Card>
-              <h2 className='text-center text-2xl'>Contact Us</h2>
-              <form action=''>
-                <div className='form-control'>
-                  <input className='my-5' type='text' name='name' placeholder='Name' required />
-                </div>
-                <div className='form-control'>
-                  <input className='my-5' type='text' name='company' placeholder='Company Name' required />
-                </div>
-                <div className='form-control'>
-                  <input className='my-5' type='email' name='email' placeholder='Email' required />
-                </div>
-                <input className='my-5 bg-emerald-400 rounded-lg text-white py-2 px-7' type='submit' value='Send' />
-              </form>
-            </Card>
-          </div>
+          {/* <div className='md:showcase-form showcase-form-shrink'> */}
+          <Form>
+            <h2 className='text-center text-2xl'>Contact Us</h2>
+            <form action=''>
+              <div className='form-control'>
+                <input className='my-5' type='text' name='name' placeholder='Name' required />
+              </div>
+              <div className='form-control'>
+                <input className='my-5' type='text' name='company' placeholder='Company Name' required />
+              </div>
+              <div className='form-control'>
+                <input className='my-5' type='email' name='email' placeholder='Email' required />
+              </div>
+              <input
+                className='my-5 bg-emerald-400 rounded-lg text-white py-2 px-7 transition hover:ease-out hover:scale-110 duration-300 cursor-pointer'
+                type='submit'
+                value='Send'
+              />
+            </form>
+          </Form>
+          {/* </div> */}
         </div>
       </div>
     </div>
