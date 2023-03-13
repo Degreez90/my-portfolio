@@ -7,7 +7,7 @@ const Section = () => {
         <div className='flex justify-center'>
           <h3 className='text-4xl'>Our Services</h3>
         </div>
-        <div className='grid  auto-rows-auto md:grid-cols-4 md:grid-rows-none gap-5 my-5 container items-center md:items-start'>
+        <div className='grid auto-rows-auto md:grid-cols-4 md:grid-rows-none gap-5 my-5 container items-center md:items-start'>
           <div className='text-center p-5'>
             <i className='text-4xl bi bi-code-slash'></i>
             <div className='font-Lato text-3xl py-5'>Web Development</div>
