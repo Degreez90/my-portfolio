@@ -20,7 +20,7 @@ const SectionC = () => {
         </Card>
         <Card>
           <h2 className='mb-3 text-xl'>Gatsby</h2>
-          <img className='max-w-20 max-h-20' src='/gatsby.svg' alt='' />
+          <img className='md:max-w-20 md:max-h-20 max-w-16 max-h-16' src='/gatsby.svg' alt='' />
         </Card>
         <Card>
           <h2 className='mb-3 text-xl'>Firebase</h2>

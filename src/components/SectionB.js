@@ -7,7 +7,7 @@ const SectionB = () => {
         <div className='text-center text-white'>
           <h2 className='text-3xl'>Robust Cloud Hosting</h2>
           <p className='py-5'>Cloud hosting like you've never seen. Fast, efficient and scalable</p>
-          <a className='px-10 py-5 inline-block text-black bg-slate-200 hover:bg-slate-700 rounded-lg '>Read More</a>
+          <a className='px-10 py-5 inline-block text-black bg-slate-200 hover:bg-slate-700 rounded-lg'>Read More</a>
         </div>
         <img src='./hosting.png' alt='' />
       </div>
