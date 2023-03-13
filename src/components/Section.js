@@ -3,11 +3,11 @@ import React from 'react';
 const Section = () => {
   return (
     <div className='bg-neutral-700'>
-      <div className='mx-auto max-w-[1400px] text-white px-10 pt-5'>
+      <div className='mx-auto container text-white px-5 py-5'>
         <div className='flex justify-center'>
           <h3 className='text-4xl'>Our Services</h3>
         </div>
-        <div className='grid grid-cols-4 gap-x-5 mt-5 max-w-[1400px] justify-items-center'>
+        <div className='grid  auto-rows-auto md:grid-cols-4 md:grid-rows-none gap-5 my-5 container items-center md:items-start'>
           <div className='text-center p-5'>
             <i className='text-4xl bi bi-code-slash'></i>
             <div className='font-Lato text-3xl py-5'>Web Development</div>
@@ -17,7 +17,7 @@ const Section = () => {
               Duis tempor et ad mollit nulla enim amet velit irure. Sunt duis est ex commodo commodo consectetur est dolor magna.
             </div>
           </div>
-          <div className='flex flex-col text-center p-5 items-center'>
+          <div className=' text-center p-5 items-center'>
             <i className='text-4xl bi bi-box'></i>
             <div className='font-Lato text-3xl py-5'>Product Design</div>
             <div>
@@ -25,7 +25,7 @@ const Section = () => {
               culpa eiusmod quis ea amet eu duis aliqua.
             </div>
           </div>
-          <div className='flex flex-col text-center p-5 items-center'>
+          <div className='text-center p-5 items-center'>
             <i className='text-4xl bi bi-window'></i>
             <div className='font-Lato text-3xl py-5'>Market Strategy</div>
             <div>
@@ -33,7 +33,7 @@ const Section = () => {
               velit irure. Magna eiusmod cupidatat anim enim culpa cillum sint commodo excepteur exercitation cupidatat veniam.
             </div>
           </div>
-          <div className='flex flex-col p-5 items-center'>
+          <div className='text-center p-5 items-center'>
             <i className='text-4xl bi bi-box'></i>
             <div className='font-Lato text-3xl py-5'>Ecommerce</div>
             <div>
