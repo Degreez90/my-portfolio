@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <div
       className='relative h-[100%] md:h-[550px]'
-      style={{ backgroundImage: `url(./hero.jpg)`, backgroundPosition: 'center', backgroundSize: '100% 100%', backgroundRepeat: 'no-repeat' }}
+      style={{ backgroundImage: `url(/hero.jpg)`, backgroundPosition: 'center', backgroundSize: '100% 100%', backgroundRepeat: 'no-repeat' }}
     >
       <div className='relative w-full h-full bg-slate-800/[.40]'>
         <Nav />
