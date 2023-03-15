@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'gatsby';
 
 const nav = () => {
   return (
@@ -10,14 +11,14 @@ const nav = () => {
         <div className='flex text-white text-md font-Lato'>
           <ul className='flex space-x-5'>
             <li>
-              <a className=' hover:border-solid hover:border-b-2 hover:border-b-white pb-1' href=''>
+              <Link className='hover:border-solid hover:border-b-2 hover:border-b-white pb-1' to='/'>
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a className=' hover:border-solid hover:border-b-2 hover:border-b-white pb-1' href=''>
+              <Link className='hover:border-solid hover:border-b-2 hover:border-b-white pb-1' to='/about'>
                 About
-              </a>
+              </Link>
             </li>
             <li>
               <a className=' hover:border-solid hover:border-b-2 hover:border-b-white pb-1' href=''>
