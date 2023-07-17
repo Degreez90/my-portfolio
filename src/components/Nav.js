@@ -1,5 +1,5 @@
-import React from 'react';
-import { Link } from 'gatsby';
+import React from 'react'
+import { Link } from 'gatsby'
 
 const nav = () => {
   return (
@@ -8,28 +8,37 @@ const nav = () => {
         <div className='flex font-[Raleway] text-white w-[100%]'>
           <h1>My Portfolio</h1>
         </div>
-        <div className='flex text-white text-md font-Lato'>
+        <div className='flex text-white text-md font-Lato z-50'>
           <ul className='flex space-x-5'>
             <li>
-              <Link className='hover:border-solid hover:border-b-2 hover:border-b-white pb-1' to='/'>
+              <Link
+                className='hover:border-solid hover:border-b-2 hover:border-b-white pb-1'
+                to='/'
+              >
                 Home
               </Link>
             </li>
             <li>
-              <Link className='hover:border-solid hover:border-b-2 hover:border-b-white pb-1' to='/about'>
+              <Link
+                className='hover:border-solid hover:border-b-2 hover:border-b-white pb-1'
+                to='/about'
+              >
                 About
               </Link>
             </li>
             <li>
-              <a className=' hover:border-solid hover:border-b-2 hover:border-b-white pb-1' href=''>
-                Contact
-              </a>
+              <Link
+                className=' hover:border-solid hover:border-b-2 hover:border-b-white pb-1'
+                to='/doc'
+              >
+                Docs
+              </Link>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-  );
-};
+  )
+}
 
-export default nav;
+export default nav
