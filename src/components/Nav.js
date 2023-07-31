@@ -7,7 +7,9 @@ const nav = () => {
       <div className='flex px-5 md:mx16'>
         <div className='flex font-[Raleway] font-semibold text-white w-[100%]'>
           <Link to='/'>
-            <h1>My Portfolio</h1>
+            <h1>
+              Web<span className='text-emerald-500'>Me</span>
+            </h1>
           </Link>
         </div>
         <div className='flex text-white text-md font font-Lato z-50'>
