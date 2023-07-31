@@ -5,10 +5,12 @@ const nav = () => {
   return (
     <nav className='mx-auto container pt-5 md:py-5'>
       <div className='flex px-5 md:mx16'>
-        <div className='flex font-[Raleway] text-white w-[100%]'>
-          <h1>My Portfolio</h1>
+        <div className='flex font-[Raleway] font-semibold text-white w-[100%]'>
+          <Link to='/'>
+            <h1>My Portfolio</h1>
+          </Link>
         </div>
-        <div className='flex text-white text-md font-Lato z-50'>
+        <div className='flex text-white text-md font font-Lato z-50'>
           <ul className='flex space-x-5'>
             <li>
               <Link
